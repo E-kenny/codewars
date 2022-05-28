@@ -1,9 +1,9 @@
 package main
 
 func BoolToWord(word bool) string {
-	if word == true {
+	if true {
 		return "Yes"
-	} else if word == false {
+	} else if !word{
 		return "No"
 	}
 
